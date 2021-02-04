@@ -1,0 +1,156 @@
+
+  /* .row{
+    margin-bottom: 80px;
+  }
+   */
+  .logo-footer{
+    display: inline-block;
+    width: 70vw;
+  }
+  
+  
+   .footer__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  
+  .logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-bottom: .5rem solid  #f6eec9;
+    padding-bottom: 20px;
+    background: #603813;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #b29f94, #603813);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #b29f94, #603813); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  
+  .container-arriba{
+    display: flex;
+    flex-direction: column;
+    background: #603813;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b29f94, #603813);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b29f94, #603813); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:var(--color-primary-yellow);
+
+  }
+  
+  
+  
+  .medios-de-pago{
+    margin-top: 30px;
+
+  }
+  .medios-texto{
+    display: flex;
+   justify-content: center;
+   font-size: 3.5rem;
+   text-decoration: 5px solid #f6eec9;
+   font-size: 1.7rem;
+   font-family:cursive;
+
+  }
+  
+  .medios-texto::after{
+    content: '';
+    background-color: #f6eec9;
+    width: 210px; 
+    height: 4px;
+    border-radius:60px;
+    position: absolute; 
+    margin-top: 55px;
+  } 
+   
+  .iconos{
+    display: inline-flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .iconos i{
+    padding: 20px;
+    font-size: 40px;
+  }
+  
+  .iconos img{
+    margin-left: 5px;
+    margin-top: 4px;
+    width: 200px;
+    height: 80px;
+  }
+  
+  .redes{
+    background-color: #4c0505;
+    border-radius: 30px;
+    display: flex;
+    margin: 0 30px;
+    padding: 0px;
+    height: 43px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+  }
+  
+  .redes-text{
+    font-size: 1rem;
+    display: flex;
+    align-self: center;
+    flex-grow: 1;
+    margin-left: 20px;
+    margin-top: .5px;
+  }
+  
+  .redes i{
+    
+    font-size: 1.2rem;
+    margin-right: 22px;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  
+  .contacto{
+    background-color: #4c0505;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin: 20px 130px;
+    height: 30px;
+    margin-bottom: 120px;
+    
+  }
+  
+  .contactanos-text{
+    display: flex;
+    justify-content: flex-start;
+    text-align: flex-end;
+    flex-grow: 1;
+    margin-left: 25px;
+    margin-top: 3px;
+    font-size: 1rem;
+    color:var(--color-primary-yellow);
+
+
+  }
+  
+  .contacto i{
+    padding: 2px;
+    font-size: 1rem;
+    margin-right: 25px;
+    margin-top: 7px;
+    color:var(--color-primary-yellow);
+
+  }
+  
+  .footer-text{
+    display: none;
+  }

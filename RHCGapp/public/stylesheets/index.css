@@ -1,0 +1,118 @@
+@import 'general.css';
+@import 'header.css';
+@import 'footer.css';
+
+.home__main{
+    width: 100vw;
+    background-image:   linear-gradient(#f6eec95b,#f6eec96b),url(/img/fondos/texturas_19.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.kits--title{
+    text-align: center;
+    color: var(--color-primary-red);
+    margin-bottom: 2rem;
+}
+
+.kits--sub-title{
+    font-size: 2.5rem;
+}
+
+/* .kits--logo{
+    width: 5rem;
+    position: absolute;
+    top: 0;
+    right: -2rem;
+} */
+
+.kit-slider{
+    width: 100%;
+    padding-left: 2rem;
+    width: 100vw;
+    display: flex;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+    padding-left: 2.5rem;
+    scrollbar-width: none; 
+}
+
+.slide {
+    flex-shrink: 0;
+    display: flex;
+    padding: 2rem 0;
+
+}
+
+
+/* CATEGORIAS */
+.categorias{
+    z-index: 0;
+}
+
+h3{
+    margin: -19px 0px 0px -21px
+}
+p{
+    margin: 26px 0px 0px -15px;
+}
+.tarjeta-categoria{
+
+    width: 100%;
+    border-radius: 25px;
+    height: 100%;
+    background-size: cover;
+    font-family:  "arimo", "lobster" ;
+}
+.img-guitarra{
+    background-image: url("/img/bg-images/bg-guitarra.jpg"); 
+}
+.img-piano{
+    background-image: url("/img/bg-images/bg-piano.jpg");
+}
+.img-bateria{
+    background-image: url("/img/bg-images/bg-bateria.jpg");
+}
+.img-viento{
+    background-image: url("/img/bg-images/bg-saxo.jpg");
+}
+.img-ampli{
+    background-image: url("/img/bg-images/bg-ampli.jpg");
+}
+.transparencia{
+width: 50%;
+height: 100%;
+border-radius: 25px 0px 0px 25px;
+color: white;
+padding: 30px;
+}
+.transp-guitarra{
+    background-color: rgba(230, 121, 89 , .5);
+}
+.transp-piano{
+    background-color: rgba(185, 206, 162 , .5);
+}
+.transp-bateria{
+    background-color: rgba(134, 149, 19, .5);
+}
+.transp-viento{
+    background-color: rgba(172, 182, 147, .5);
+}
+.transp-ampli{
+    background-color: rgba(181, 152, 119, .5);
+}
+.transparencia h3 p{
+color: white;
+}
+
+.foto{
+     height: 100%;
+     width: 100%;
+     border-radius: 25px;
+     
+}
+.col-12{
+    border-radius: 25px;
+}

@@ -1,0 +1,27 @@
+/* GENERALES */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  a{
+    text-decoration: none;
+  }
+  li{
+    list-style: none;
+  }
+  
+/* VARIABLES */
+  :root{
+    --main-width: 90vw;
+    --color-primary-red: #a20a0a;
+    --color-primary-darkRed: #4c0505;
+    --color-primary-orange: #c5704a;
+    --color-primary-yellow: #f6eec9;
+    --color-primary-green: #799351;
+    --bg-color-orange:#f07c4d;
+    --bg-color-darkRed: #8d2e21;
+    --primary-shadow-up: 0 -.2rem .5rem rgba(0, 0, 0, 0.4);
+    --primary-shadow-down: 0 .3rem .5rem rgba(0, 0, 0, 0.4);
+    
+    }

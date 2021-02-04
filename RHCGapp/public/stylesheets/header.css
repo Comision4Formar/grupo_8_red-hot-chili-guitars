@@ -1,0 +1,154 @@
+.img__logo{
+    display: none;
+}
+
+
+.link--logo{
+   display: none;
+}
+
+.img--slider{
+    display: none;
+}
+
+.header--svg{
+    display: none;
+}
+
+.header{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width:100vw;
+    height: 5rem;
+    background-image:linear-gradient(
+       125deg, var(--bg-color-orange), var(--bg-color-darkRed));
+    box-shadow:var(--primary-shadow-down);
+    display: flex;
+    z-index: 100;
+
+}
+
+.header__bg{
+  display: none;
+}
+
+.hamburguer{
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    left: 1rem;
+    top: -2.5rem;
+    width: 5rem;
+}
+
+
+.nav__container{
+   position: relative;
+   right: -8rem;
+   top: -7rem;
+   width: 60vw;
+}
+
+.header__form{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.btn--search{
+   padding: .5rem .8rem;
+   background-color: var(--color-primary-red);
+   border-radius: 50%;
+   font-size: 1.5rem;
+   color:var(--color-primary-yellow);
+   box-shadow: var(--primary-shadow--up)
+}
+
+
+
+.barra-busqueda{
+   display: none;
+}
+
+.login{
+   width: 45%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-direction: row-reverse;
+
+}
+
+.login a {
+   background-color: var(--color-primary-red);
+   color:var(--color-primary-yellow);
+   padding: .5rem .8rem;
+   border-radius: 50%;
+   font-size: 1.5rem;
+   box-shadow: 0 .3rem .5rem rgba(0, 0, 0, 0.4);
+}
+
+.fa-shopping-cart{
+   margin-left: -.2rem;
+}
+
+.btn--logeoRegistro{
+   display: none;
+}
+
+.nav-bar{
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 10;
+   width: 100vw;
+   height: 100vh;
+   background-color: rgba(0, 0, 0, 0.288);
+   transform:translateX(100%);
+   transition: all .3s;
+}
+
+#barra:target{
+   transform: translateX(0%);
+}
+
+.list--header{
+   position: relative;
+   z-index: 1;
+   display: block;
+   width: 55vw;
+   height: 100vh;
+   background-color: var(--color-primary-darkRed);
+   padding-top: 1rem;
+}
+
+
+
+.item--header:not(:last-child){
+   margin-bottom: 1rem;
+   border-bottom: .1rem solid var(--color-primary-yellow);
+}
+
+.btn--header{
+   color: var(--color-primary-yellow);
+   width: 50vw;
+   padding:0 0 1rem 2rem;
+   font-size: 1.3rem;
+   text-align:center;
+}
+
+.btn--cross{
+   position: relative;
+   top: -35rem;
+   left: 23rem;
+   z-index: 101;
+   padding: .2rem .4rem;
+   font-size: 1.3rem;
+   background-color: var(--color-primary-darkRed);
+   border-radius: 50%;
+   cursor: pointer;
+   line-height: 0%;
+   color: var(--color-primary-yellow);
+
+}
